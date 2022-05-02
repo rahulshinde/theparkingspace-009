@@ -3,13 +3,145 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>The Parking Spaces - 009</title>
-	<link rel="stylesheet" type="text/css" href="css/reset.css">
-	<link rel="stylesheet" type="text/css" href="css/option1.css">
-	<link rel="stylesheet" type="text/css" href="css/header.css">
+	<title>The Parking Spaces | 009</title>
+	<link rel="stylesheet" type="text/css" href="css/generic.css">
+	<link rel="stylesheet" type="text/css" href="css/image_modal.css">
+	<link rel="stylesheet" type="text/css" href="css/layout.css">
 	<link rel="stylesheet" type="text/css" href="css/audio.css">
+	<link rel="stylesheet" type="text/css" href="css/009.css">
 </head>
 <body>
-	<h1>009</h1>
+	<header>
+		<div class='page_title'>
+			<span class='number'>
+				<h1>009</h1>
+				<span class='author'>by Filmcast Podscene</span>
+			</span>
+		</div>
+		<nav id="main_nav">
+			<div id="nav_link_container">
+				<a class='nav_link listen' href="#listen">
+					Listen
+				</a>
+				<a class='nav_link read' href="#read">Read</a>
+				<a class='nav_link artists' href="#artists">about</a>
+			</div>
+		</nav>
+
+		<div id='map_location_wrapper'>
+			<a href='https://goo.gl/maps/1FVXJU8tsTcya1Wg6' target='blank' class='map_link' id='map_location' tabindex='1'>
+				<div class='title_author_container'>
+					<span class='title'>Chauncey Swan Park amphitheater</span>
+					<span class='address'>415 E Washington</span>
+					<span class='coordinates'>41.659638, -91.529963</span>
+				</div>
+			</a>
+		</div>
+
+		<a href='https://theparkingspaces.com#map' id='back_link'>
+			<svg version="1.1" id="back_arrow" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+				 viewBox="0 0 305.7 305.7" style="enable-background:new 0 0 305.7 305.7;" xml:space="preserve">
+				<path d="M152.2,179.2h136.7c5.8,0,10.6-4.7,10.6-10.6v-39.5c0-5.8-4.7-10.6-10.6-10.6H152.1c-6.3,0-11.2-5.5-10.5-11.8l3.2-28.3
+				c1-8.7-8.5-14.8-16-10.2l-117.3,71c-6.8,4.1-6.8,14,0,18.1l117.3,70.9c7.5,4.5,17-1.5,16-10.2l-3-27
+				C141,184.7,145.9,179.2,152.2,179.2z"/>
+			</svg>
+			<div>View Other Spaces</div>
+		</a>
+		<div id='footer_info'>
+			 Space 9. Take a seat if you aren’t already seated. There is plenty of space here. Take your eyes toward the big white rectangle. The blank canvas. The film projector screen….
+		</div>
+	</header>
+
+	<div id='loading_container'>
+		<img id='loading_image' src="assets/illustrations/009-01.svg">
+		<span id='loading_message'>loading...</div>
+	</div>
+
+	<main>
+		<section id="listen">
+			<h2>Listen</h2>
+
+			<div id='headphone_notification'>
+				<img src="assets/headphones.svg">
+				This piece is best experienced using headphones
+			</div>
+			
+			<div class="audio_container" id='main_audio'>
+				<div class='player'>
+					<audio class="audio_track">
+						<source src="tracks/parking-space-9.mp3" type="audio/mpeg">
+					</audio>
+				</div>
+			</div>
+		</section>
+
+		<section id="read" class='large_paragraph'>
+			<h2>Read</h2>
+			<div class='audio_container print_download_container'>
+				<a id='print_download' href="">
+					<img src="assets/print_download.svg">
+					<h3 class="audio_heading">Download PDF</h3>
+				</a>
+			</div>
+			<div class='audio_container print_download_container'>
+				<a id='print_download' href="">
+					<img src="assets/print_download.svg">
+					<h3 class="audio_heading">Download DOCX</h3>
+				</a>
+			</div>
+		</section>
+		
+		<section id="artists" class="">
+			<h2>About</h2>
+			<div class="content_container content_with_image">
+					<div class='image_link author_image'>
+						<button class="open_image" id="team_image_button">
+							<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 133.57 336.86"><defs></defs><circle class="figure_button" cx="66.79" cy="37.91" r="37.91"/><path class="cls-1" d="M54.23,81.47H79.34a54.23,54.23,0,0,1,54.23,54.23v74a12.09,12.09,0,0,1-12.09,12.09H12.09A12.09,12.09,0,0,1,0,209.66v-74A54.23,54.23,0,0,1,54.23,81.47Z"/><rect class="cls-1" x="28.88" y="178.57" width="75.82" height="158.29" rx="11.51"/></svg>
+						</button>
+						<div class="image_container">
+							<div class="image_inner_container">
+								<img src="assets/img/platte.png" alt="Needs description">
+							</div>
+							<span class="description">
+							<button class='close_modal'>Close</button>
+							Needs description</span>
+						</div>	
+					</div>
+					<div>
+						<span class='artist_name'>Nathan Platte</span> teaches courses on film music and other topics for the School of Music and Department of Cinematic Arts at the University of Iowa. His research explores the sound of Hollywood’s studio era from a variety of angles, including the collaborative process of film scoring, the intersection of technology and music, and soundtrack albums. Nathan is a writer, cohost, and producer for two podcasts: Sounding Cinema, a film music podcast made in collaboration with students, and FilmCastPodScene, a podcast cohosted with Ben Delgado, the programming director of FilmScene.
+					</div>
+			</div>
+			<div class="content_container content_with_image">
+					<div class='image_link author_image'>
+						<button class="open_image" id="team_image_button">
+							<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 133.57 336.86"><defs></defs><circle class="figure_button" cx="66.79" cy="37.91" r="37.91"/><path class="cls-1" d="M54.23,81.47H79.34a54.23,54.23,0,0,1,54.23,54.23v74a12.09,12.09,0,0,1-12.09,12.09H12.09A12.09,12.09,0,0,1,0,209.66v-74A54.23,54.23,0,0,1,54.23,81.47Z"/><rect class="cls-1" x="28.88" y="178.57" width="75.82" height="158.29" rx="11.51"/></svg>
+						</button>
+						<div class="image_container">
+							<div class="image_inner_container">
+								<img src="assets/img/ben_delgado.jpeg" alt="Needs description">
+							</div>
+							<span class="description">
+							<button class='close_modal'>Close</button>
+							Needs description</span>
+						</div>	
+					</div>
+					<div>			
+						<span class='artist_name'>Ben Delgado</span> is the Programming Director at FilmScene, Iowa City’s premiere art house theater. He holds a Masters degree from The Ohio State University in Arts Policy and a BA in Communication and Culture from Indiana University. Ben began his programming career at Coral Gables Art Cinema in 2013 where he helped to develop artists’ services programs alongside curating a diverse film selection. In 2017 he joined the programming team of the American Film Institute’s Silver Theatre and Cultural Center playing an integral role in presenting over 800 annual offerings with film festivals, repertory, and first-run film. There he also co-founded and co-hosted the Silver Streams podcast. In his current role at FilmScene, Ben oversees all aspects of programming from special events to repertory offerings and everything in between including co-hosting FilmCastPodScene with University of Iowa professor of musicology Nathan Platte.
+					</div>
+			</div>
+		</section>
+	</main>
+
+	<img class='illustration' id='illustration1' src="assets/illustrations/009-03.svg">
+	<img class='illustration' id='illustration2' src="assets/illustrations/009-02.svg">
+
+	<footer>
+		<span id='site_credits'>site by rahul, rush, & sayuri</span>
+	</footer>
+
+	<script type="text/javascript" src="js/image.js"></script>
+	<script type="text/javascript" src="js/scroll_handler.js"></script>
+	<script type="text/javascript" src="js/green-audio.js"></script>
+	<script type="text/javascript" src="js/audio.js"></script>
 </body>
 </html>
